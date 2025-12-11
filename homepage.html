@@ -1,0 +1,570 @@
+<html>
+<head>
+<title>HOMEPAGE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: black;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  <IMG SRC= "BG Homepage.jpg";
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<img src="homepage.jpg"><br>
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ESHARADHIAH<span class="w3-hide-small"</span>
+  </div>
+</div>
+
+<div style="background-color: #B0C4DE; padding: 32px;">
+
+<div>
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I'm a Information Management Student</em></p>
+  <p>I am currently pursuing my studies at Universiti Teknologi MARA (UiTM) Segamat in the Information Management programme. I am interested in information organisation, records management, and managing information systems. I am a responsible and organised individual who is willing to learn and develop practical skills for my future career.</p><br><br>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="esha1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="300" height="253">
+    </div>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>My name is Ieshatul Radhiah binti Muttmaein. I was born at Segamat Hospital and raised in Segamat, Johor. I was born on 10 March 2005. I am the eldest of three siblings, with one younger brother and one younger sister.</p>
+      <p>I am an introverted individual with an INFJ personality type. It takes a little time for me to become comfortable and build close connections with new people, but I value meaningful relationships and clear communication.</p>
+      <p>During my free time, I usually spend time watching anime, Chinese historical dramas, or movies, as they help me relax and unwind. I also enjoy reading books, especially action, mystery, and science fiction genres, as I like stories that are engaging, thought-provoking, and allow me to imagine different worlds and possibilities. Reading and watching shows have become my way to recharge and enjoy some quiet time on my own.</p>
+    </div>
+  </div>
+  
+<h3 class="w3-center">MY PREFERRED SONGS</h3>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/00FQb4jTyendYWaN8pK0wa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">STUFF I'M FOND OF</h3>
+  <p class="w3-center"><em>“I love what sparks my curiosity.”<br> Things I enjoy define my little world</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="like5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="baking">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="like1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="waching movie">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="like2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="reading">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="like3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="chese">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="like4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="chinese drama">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="like7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+</div>
+<br>
+
+ <h3 class="w3-center">Frames of Fantasy</h3>
+  <p class="w3-center"><em>“Scenes borrowed from another world.”.</p>
+
+<style>
+/* Hover effect & transition */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 16px;
+}
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  display: block;
+}
+
+/* Caption */
+.gallery-caption {
+  text-align: center;
+  margin-top: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Modal */
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+  top: 50px;
+}
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Responsive grid */
+.w3-row-padding {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.w3-col {
+  flex: 1 1 calc(25% - 16px); /* 4 kolum desktop */
+  box-sizing: border-box;
+}
+@media(max-width: 992px) {
+  .w3-col {
+    flex: 1 1 calc(50% - 16px); /* 2 kolum tablet */
+  }
+}
+@media(max-width: 600px) {
+  .w3-col {
+    flex: 1 1 100%; /* 1 kolum mobile */
+  }
+}
+</style>
+
+<div class="w3-row-padding w3-margin-top">
+  <!-- Media 1 - 16 -->
+  <div class="w3-col gallery-item">
+    <img src="animation1.gif" onclick="onClick(this)" alt="GIF 1">
+    <div class="gallery-caption">Kaito Kid</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation2.gif" onclick="onClick(this)" alt="GIF 2">
+    <div class="gallery-caption">Bakugo Katsuki</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation3.gif" onclick="onClick(this)" alt="GIF 3">
+    <div class="gallery-caption">Gojo Satoru</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation4.gif" onclick="onClick(this)" alt="GIF 4">
+    <div class="gallery-caption">Muichiro Takito</div>
+  </div>
+
+  <div class="w3-col gallery-item">
+    <img src="animation5.gif" onclick="onClick(this)" alt="GIF 5">
+    <div class="gallery-caption">Todoroki Shouto</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation6.gif" onclick="onClick(this)" alt="GIF 6">
+    <div class="gallery-captio">Sou</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation7.gif" onclick="onClick(this)" alt="GIF 7">
+    <div class="gallery-caption">Gojo Satoru</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <img src="animation8.gif" onclick="onClick(this)" alt="GIF 8">
+    <div class="gallery-caption">Muichiro Takito</div>
+  </div>
+
+  <div class="w3-col gallery-item">
+    <video onclick="onClick(this)" autoplay loop muted playsinline>
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="gallery-caption">Video 1</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <video onclick="onClick(this)" autoplay loop muted playsinline>
+      <source src="video2.mp4" type="video/mp4">
+    </video>
+    <div class="gallery-caption">Video 2</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <video onclick="onClick(this)" autoplay loop muted playsinline>
+      <source src="video3.mp4" type="video/mp4">
+    </video>
+    <div class="gallery-caption">Video 3</div>
+  </div>
+  <div class="w3-col gallery-item">
+    <video onclick="onClick(this)" autoplay loop muted playsinline>
+      <source src="video4.mp4" type="video/mp4">
+    </video>
+    <div class="gallery-caption">Video 4</div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="modal-close" onclick="document.getElementById('modal01').style.display='none'">&times;</span>
+  <div class="modal-content" id="img01"></div>
+</div>
+
+<script>
+function onClick(element) {
+  var modal = document.getElementById("modal01");
+  var modalImg = document.getElementById("img01");
+  modal.style.display = "block";
+
+  if(element.tagName.toLowerCase() === "img") {
+    modalImg.innerHTML = '<img src="' + element.src + '" style="width:100%">';
+  } else if(element.tagName.toLowerCase() === "video") {
+    modalImg.innerHTML = '<video src="' + element.querySelector("source").src + '" style="width:100%" controls autoplay></video>';
+  }
+}
+</script>
+
+
+
+
+
+<!-- Modal -->
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="modal-close" onclick="document.getElementById('modal01').style.display='none'">&times;</span>
+  <div class="modal-content" id="img01"></div>
+</div>
+
+<script>
+function onClick(element) {
+  var modal = document.getElementById("modal01");
+  var modalImg = document.getElementById("img01");
+  modal.style.display = "block";
+
+  if(element.tagName.toLowerCase() === "img") {
+    modalImg.innerHTML = '<img src="' + element.src + '" style="width:100%">';
+  } else if(element.tagName.toLowerCase() === "video") {
+    modalImg.innerHTML = '<video src="' + element.querySelector("source").src + '" style="width:100%" controls autoplay></video>';
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<div>
+<br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Albums Film Strip</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+    }
+
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background-color: #020617;
+      border-bottom: 4px solid #000;
+    }
+
+    header h1 {
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    section {
+      padding: 2rem 1.5rem;
+    }
+
+    /* Film strip frame effect */
+    /* Film strip frame effect */
+    .film-strip {
+      position: relative;
+      background: #000;
+      padding: 2rem 1rem;
+      border-top: 18px solid #111;
+      border-bottom: 18px solid #111;
+    }
+
+    /* Film holes (sprocket) */
+    .film-strip::before,
+    .film-strip::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 18px;
+      background: repeating-linear-gradient(
+        90deg,
+        #111 0 18px,
+        transparent 18px 36px
+      );
+    }
+
+    .film-strip::before { top: 0; }
+    .film-strip::after { bottom: 0; }
+
+    /* 5 x 5 Grid */
+    .film-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.8rem;
+    }
+
+    .film-cell {
+      background: #000;
+      border: 4px solid #000;
+      box-shadow: inset 0 0 0 2px #1f2937;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+    }
+
+    .film-cell img,
+    .film-cell video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .film-cell video {
+      background: #000;
+    }
+
+    /* Responsive */
+    @media (max-width: 1100px) {
+      .film-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .film-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #020617;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+ <h3 class="w3-center">Life, Through My Eyes</h3>
+  <p class="w3-center"><em>“Collecting moments, one frame at a time.”.</p>
+</header>
+
+<section class="film-strip">
+  <div class="film-grid">
+
+    <!-- Row 1 -->
+    <div class="film-cell"><img src="s17.jpg" alt="Image 1"></div>
+    <div class="film-cell"><video src="video1.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="s1.jpg" alt="Image 2"></div>
+    <div class="film-cell"><video src="video2.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img3.jpg" alt="Image 3"></div>
+
+    <!-- Row 2 -->
+    <div class="film-cell"><video src="video3.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img4.jpg" alt="Image 4"></div>
+    <div class="film-cell"><video src="video4.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img5.jpg" alt="Image 5"></div>
+    <div class="film-cell"><img src="img6.jpg" alt="Image 6"></div>
+
+    <!-- Row 3 -->
+    <div class="film-cell"><img src="img7.jpg" alt="Image 7"></div>
+    <div class="film-cell"><video src="video5.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img8.jpg" alt="Image 8"></div>
+    <div class="film-cell"><video src="video6.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img9.jpg" alt="Image 9"></div>
+
+    <!-- Row 4 -->
+    <div class="film-cell"><video src="video7.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img10.jpg" alt="Image 10"></div>
+    <div class="film-cell"><img src="img11.jpg" alt="Image 11"></div>
+    <div class="film-cell"><video src="video8.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img12.jpg" alt="Image 12"></div>
+
+    <!-- Row 5 -->
+    <div class="film-cell"><img src="img13.jpg" alt="Image 13"></div>
+    <div class="film-cell"><video src="video9.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img14.jpg" alt="Image 14"></div>
+    <div class="film-cell"><video src="video10.mp4" muted autoplay loop></video></div>
+    <div class="film-cell"><img src="img15.jpg" alt="Image 15"></div>
+
+  </div>
+</section>
+
+</section>
+
+<script>
+  // Hover play / pause for videos
+  document.querySelectorAll('.film-cell video').forEach(video => {
+    video.addEventListener('mouseenter', () => {
+      video.play();
+    });
+    video.addEventListener('mouseleave', () => {
+      video.pause();
+    });
+  });
+</script>
+
+<footer>
+  <p>&copy; Esharadhiah</p>
+</footer>
+
+</body>
+</div>
+
+</body>
+</html>
